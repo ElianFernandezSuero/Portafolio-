@@ -1,0 +1,303 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-desplegable-nav{
+   background-color: #656533a8;
+   margin: auto;
+   position:fixed;
+   width: 100%;
+   z-index: 100;
+}
+
+.Items-ul{
+    flex-direction: column;
+    position: fixed;
+    background-color: #3b3b3b;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+    height: calc(100% - 60px);
+    overflow-y:auto ;
+    text-transform: uppercase;
+    left:100%;
+    transition: left 0.3s;
+    font-family: sans-serif;
+    font-weight: bold;  
+    z-index: 100;
+}
+
+.Services{
+    background-color: #3b3b3b;  
+}
+
+.Items-a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Items-li{
+    list-style: none;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.Logo{
+    padding:  0 30px;
+    line-height: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+  background-color:  #ffffff;
+}
+
+.bar-btn{
+
+    padding: 20px 20px;
+    display: none;
+    font-size: medium;
+    background: none;
+    color: white;
+    border: none;
+    float: right;
+}
+
+
+.HolaFondo2{
+    display: none;
+}
+
+.bar-btn{
+    display: block;
+}
+
+
+@media (max-width: 768px){
+    
+    .Portafolio{
+        max-width: 429px;
+        height: 645px;
+        margin-top: 20px;
+    }
+    .Seccion2{
+        margin-top: 20px; 
+    }
+    .Seccion3{
+        margin-top: 20px; 
+    }
+    .Seccion4{
+        margin-top: 20px; 
+    }
+    
+    .HolaFondo {
+        display: none;
+    }
+    
+    .HolaFondo2 {
+        display: block;
+        width: 100%;
+        min-height: 100%;
+    }
+    .textoenfondo{
+        display: none;
+    }
+
+    .menu-desplegable-nav{
+        background: none;
+    }
+
+    .texth1-visible{
+        display: block;
+    }
+
+}
+
+.Items-ul-visible{
+    left: 0;
+}
+
+.HolaFondo{
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    top: 10px;
+    margin: 0;
+    background-size: cover;
+    z-index: 10;
+}
+
+.texth1{
+    position: absolute;
+    top: 300px;
+    left: 5%;
+    font-size: 75px;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.textp{
+    position:absolute;
+    top: 365px;
+    left: 5%;
+    font-size: 45px;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.texth1-visible{
+    position: absolute;
+    top: 300px;
+    left: 5%;
+    font-size: 75px;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+    display: none;
+}
+
+.textp-visible{
+    position:absolute;
+    top: 365px;
+    left: 5%;
+    font-size: 45px;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+    display: none;
+}
+
+.btn-neon{
+    border: 3px solid #ffffff;
+    font-size: 15px;
+    position: absolute;
+    top: 430px;
+    left: 4.5%;
+    z-index: 11;
+    color: white;
+    margin: 10px;
+    text-transform: uppercase;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background: none;
+}
+
+.btn-neon:hover{
+    background: white;
+    animation: 5.5s;
+    color: black;
+}
+.skills{
+    display: flex;
+    width: 70%;
+    color: white;
+    align-items: center;
+    margin-top: 25px;
+    width: 100%;
+    height: 10%;
+    padding: 200px 0px;
+
+}
+
+.Parallax1{
+    background: url("1.jpg") repeat fixed 100%;
+    background-size: 2000px;
+    width: 100%;
+    height: 10%;
+    padding: 200px 0px;
+}
+.contenedorportafolio{
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto; 
+    width: 429px;
+    height: 645px;
+    flex-wrap: wrap;
+    --bs-gutter-x: 0;
+}
+
+.Portafolio{
+   
+    padding: 0 48px;
+    
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+}
+
+@media (min-width: 992px){ 
+.Seccion1{
+    flex: 0 0 auto;
+    width: 50%;
+  
+  }
+  .Seccion2{
+    flex: 0 0 auto;
+    width: 50%;  
+  }
+  .Seccion3{
+    flex: 0 0 auto;
+    width: 50%;  
+ 
+  }
+  .Seccion4{
+    flex: 0 0 auto;
+    width: 50%;  
+
+  }
+}
+
+.Portafolio div >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    
+}
+
+
+.Tituloportafolio{
+    text-align: center !important;
+    position: relative;
+    top: 90px;
+    color: white;
+    
+}
+
+.Tituloportafolio >h1{
+   text-transform: uppercase;
+   font-family: monospace;
+}
+
+.saltodepagina1{
+    display: flex;
+    width: 70%;
+    color: white;
+    align-items: center;
+    margin-top: 25px;
+    width: 100%;
+    height: 10%;
+    padding: 200px 0px;
+    background-color: #4D5662;
+    position: relative;
+    top: 300px;
+    box-sizing: border-box;
+}
+
+.contenedorportafolio{
+    padding:  120px 0;
+    width: 100%;
+}
