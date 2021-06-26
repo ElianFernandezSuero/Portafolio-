@@ -6,7 +6,7 @@
 }
 
 .menu-desplegable-nav{
-   background-color: #656533a8;
+   background-color: #6e9964a1;
    margin: auto;
    position:fixed;
    width: 100%;
@@ -300,4 +300,8 @@ body{
     position: relative;
     align-content: center;
     float: flex;
+}
+
+.agentep{
+    margin-bottom: 1px;
 }
