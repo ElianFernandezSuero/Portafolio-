@@ -6,7 +6,7 @@
 }
 
 .menu-desplegable-nav{
-   background-color: #6e9964a1;
+   background-color: #646764a1;
    margin: auto;
    position:fixed;
    width: 100%;
@@ -37,8 +37,10 @@
 .Items-a {
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 20px 30px;
     margin: 20px;
+    border-radius: 5px;
+    background-color: #676767;
 }
 
 .Items-li{
@@ -141,13 +143,46 @@ body{
 }
 
 .textp{
-    position:absolute;
+    position: absolute;
     top: 365px;
     left: 5%;
     font-size: 45px;
     color: white;
     font-family: monospace;
     text-transform: uppercase;
+    display: grid;
+
+}
+
+.textp::before,
+.textp::after{
+    content:"" ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.textp::after{
+    width: 0.125em;
+    background-color: white;
+    animation: typewriter 4s steps(24) forwards;
+}
+
+.textp::before{
+    animation: typewriter 4s steps(24) forwards;
+
+}
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+:root{
+    --bg-color: hsl(49 37% 94%);
+    typewriterSpeed: 6s;
 }
 
 .texth1-visible{
