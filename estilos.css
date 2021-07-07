@@ -6,7 +6,7 @@
 }
 
 .menu-desplegable-nav{
-   background-color: #646764a1;
+   background-color: #1d1e41de;
    margin: auto;
    position:fixed;
    width: 100%;
@@ -16,7 +16,7 @@
 .Items-ul{
     flex-direction: column;
     position: fixed;
-    background-color: #3b3b3b;
+    background-color: #1d1e41;
     top: 60px;
     width: 100%;
     padding: 20px 0;
@@ -164,25 +164,41 @@ body{
 }
 
 .textp::after{
-    width: 0.125em;
+    width: 0.1253em;
     background-color: white;
     animation: typewriter 4s steps(24) forwards;
+    animation: typewriter var(--typewriterSpeed),
+    blink 750ms steps(var(--typewriterCharacters)) infinite;
 }
 
 .textp::before{
-    animation: typewriter 4s steps(24) forwards;
-
+    animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards;
 }
+
 @keyframes typewriter {
     to {
         left: 100%;
     }
 }
 
-:root{
+@keyframes blink {
+    to {
+      background: transparent;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  :root {
     --bg-color: hsl(49 37% 94%);
-    typewriterSpeed: 6s;
-}
+    --typewriterSpeed: 6s;
+    --typewriterCharacters: 24;
+  }
 
 .texth1-visible{
     position: absolute;
@@ -237,10 +253,10 @@ body{
 }
 
 .Parallax1{
-    background: url("1.jpg") repeat fixed 70%;
-    background-size: 2000px;
+    background: url("1.jpg") repeat fixed 50%;
+    background-size: 1000px;
     width: 100%;
-    height: 10%;
+    height: 100%;
     padding: 200px 0px;
 }
 .contenedorportafolio{
