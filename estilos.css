@@ -147,8 +147,8 @@ body{
     left: 5%;
     font-size: 45px;
     color: white;
-    font-family: monospace;
-    text-transform: uppercase;
+    font-family: Roboto;
+font-style: normal;
     display: grid;
 
 }
