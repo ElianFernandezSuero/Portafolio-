@@ -6,7 +6,7 @@
 }
 
 .menu-desplegable-nav{
-   background-color: #1d1e41de;
+   background-color: #13131e76;
    margin: auto;
    position:fixed;
    width: 100%;
@@ -37,7 +37,7 @@
 .Items-ul{
     flex-direction: column;
     position: fixed;
-    background-color: #1d1e41;
+    background-color: #13131e;
     top: 60px;
     width: 100%;
     padding: 20px 0;
@@ -131,7 +131,7 @@
 
 
     .texth1-visible{
-        display: block;
+        display:flex;
     }
 
 }
@@ -256,7 +256,7 @@ font-style: normal;
     cursor: pointer;
     border-radius: 6px;
     background: white;
-    font-family: Cairo bold;
+    font-family: Cairo Black 900;
 }
 
 .btn-neon:hover{
@@ -273,7 +273,7 @@ font-style: normal;
 }
 
 .Parallax1{
-    background: url("1.jpg") repeat fixed 50%;
+    background: url("1.jpg") repeat fixed 30%;
     background-size: 1000px;
     width: 100%;
     height: 100%;
@@ -374,4 +374,9 @@ font-style: normal;
 
 .agentep{
     margin-bottom: 1px;
+}
+
+.margenpage{
+    margin-left: 10%;
+    margin-right: 10%;
 }
