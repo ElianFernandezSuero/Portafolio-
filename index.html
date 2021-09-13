@@ -24,7 +24,7 @@
   
   <!-- navegador con menu -->
     <nav class="menu-desplegable-nav">
-        <label> <a href="index.html" class="Logo">Bytex</a></label>
+        <label> <a href="#" class="Logo text-reset fw-bold">Bytex</a></label>
 
         <button class="bar-btn">
             <i class="fas fa-bars" ></i>
@@ -88,16 +88,11 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
-                <img src="Portafolios/portafolios1.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+               
+                <img src="Portafolios/portafolios1.png" data-toggle="modal" data-target="#exampleModal" class=" bd-placeholder-img card-img-top btn btn-primar" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
     
                 <div class="card-body">
-                  
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                  
-                    </div>
-                    <small class="text-muted"></small>
-                  </div>
+                
                 </div>
               </div>
             </div>
@@ -106,7 +101,7 @@
                 <!-- Button trigger modal -->
 
 
-                <img src="Portafolios/Login.jpg.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+                <img src="Portafolios/Login.jpg.png" data-toggle="modal" data-target="#exampleModal" class=" bd-placeholder-img card-img-top btn btn-primar" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
                 
                 <div class="card-body">
                   
@@ -121,7 +116,7 @@
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img src="Portafolios/e commerse.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+                <img src="Portafolios/e commerse.png" data-toggle="modal" data-target="#exampleModal" class=" bd-placeholder-img card-img-top btn btn-primar" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
     
                 <div class="card-body">
                   <div class="d-flex justify-content-between align-items-center">
@@ -236,6 +231,36 @@
 <!-- Cerre/ Seccion de Portafolio -->
 
     <!-- Referencias de compañeros de trabajo a los que tambien recomiendo -->
+    
+  <script>$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+  </script>
+<?php 
+  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
     <div class="skills">
       <div class="container marketing">
       
@@ -283,9 +308,7 @@
     <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
   <!-- Section: Social media -->
-  <section
-    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-  >
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
       <span>Mis redes sociales: </span>
