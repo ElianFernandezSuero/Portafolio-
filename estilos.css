@@ -134,32 +134,67 @@
         display:flex;
     }
 
-}
-.texth2{
-    position: absolute;
-    top: 40%;
-    left: 20%;
-    font-size: 35px;
-    color: white;
-    font-family: monospace;
-    text-transform: uppercase;
-}
-.textofondo1{
-    text-align: center;
+    .texth2{
+        position: absolute;
+        top: 38%;
+        margin-left: 20%;
+        margin-right: 13%;
+        font-size: 300%;
+        color: white;
+        font-family: monospace;
+        text-transform: uppercase;
+        display: flex;
+    }
+    .textp2{
+        margin-left: 20%;
+        margin-right: 20%;
+        position:absolute;
+        top: 55%;
+        left: 5%;
+        font-size: 200%;
+        color: white;
+        font-family: monospace;
+        display: flex;
+    }
+    .btn-neon1{
+        border: 3px solid #ffffff;
+        font-size: 15px;
+        position: absolute;
+        top: 60%;
+        left: 35%;
+        z-index: 11;
+        color: #45505b;
+        margin: 5px;
+        text-transform: uppercase;
+        padding: 15px;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 6px;
+        background: white;
+        font-family: Cairo Black 900;
+        display: flex;
+    }
+
+    .textofondo1{
+        position: absolute;
+        margin-left: 20%;
+        margin-right: 20%;
+        top: 50%;
+        width: 50%;
+        height: 60%;
+        font-size: 150%;
+        text-align: center; 
+    }
+    
+    .btn-neon{
+        display: none;
+    }
+
 }
 
-.textp2{
-    position:absolute;
-    top: 45%;
-    left: 5%;
-    font-size: 25px;
-    color: white;
-    font-family: monospace;
-}
-.botonaso{
-    position: absolute;
-    left: 5%;
-}
+
+
+
 .Items-ul-visible{
     left: 0;
 }
@@ -269,8 +304,8 @@ font-style: normal;
     border: 3px solid #ffffff;
     font-size: 15px;
     position: absolute;
-    top: 50%;
-    left: 32%;
+    top: 56%;
+    left: 5%;
     z-index: 11;
     color: #45505b;
     margin: 5px;
