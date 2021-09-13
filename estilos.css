@@ -130,12 +130,36 @@
     }
 
 
-    .texth1-visible{
+    .textoenfondo1{
         display:flex;
     }
 
 }
+.texth2{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 35px;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.textofondo1{
+    text-align: center;
+}
 
+.textp2{
+    position:absolute;
+    top: 45%;
+    left: 5%;
+    font-size: 25px;
+    color: white;
+    font-family: monospace;
+}
+.botonaso{
+    position: absolute;
+    left: 5%;
+}
 .Items-ul-visible{
     left: 0;
 }
@@ -245,11 +269,11 @@ font-style: normal;
     border: 3px solid #ffffff;
     font-size: 15px;
     position: absolute;
-    top: 55%;
-    left: 4.5%;
+    top: 50%;
+    left: 32%;
     z-index: 11;
     color: #45505b;
-    margin: 10px;
+    margin: 5px;
     text-transform: uppercase;
     padding: 15px;
     text-decoration: none;
