@@ -97,7 +97,13 @@
 .bar-btn{
     display: block;
 }
+.texth2{
+    display: none;
+}
 
+.textp2{
+    display: none;
+}
 
 @media (max-width: 768px){
     
@@ -127,35 +133,15 @@
     }
     .textoenfondo{
         display: none;
+        
     }
 
 
-    .textoenfondo1{
-        display:flex;
-    }
+    
 
-    .texth2{
-        position: absolute;
-        top: 38%;
-        margin-left: 20%;
-        margin-right: 13%;
-        font-size: 300%;
-        color: white;
-        font-family: monospace;
-        text-transform: uppercase;
-        display: flex;
-    }
-    .textp2{
-        margin-left: 20%;
-        margin-right: 20%;
-        position:absolute;
-        top: 55%;
-        left: 5%;
-        font-size: 200%;
-        color: white;
-        font-family: monospace;
-        display: flex;
-    }
+    
+
+    
     .btn-neon1{
         border: 3px solid #ffffff;
         font-size: 15px;
