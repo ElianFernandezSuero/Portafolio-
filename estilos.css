@@ -2,7 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans';
+    font-family: 'Bitter', serif;
 }
 
 .menu-desplegable-nav{
@@ -157,7 +157,7 @@
         cursor: pointer;
         border-radius: 6px;
         background: white;
-        font-family: Cairo Black 900;
+        font-family: 'Bitter', serif;
         display: flex;
     }
 
@@ -201,7 +201,7 @@
     left: 5%;
     font-size: 75px;
     color: white;
-    font-family: monospace;
+    font-family: 'Bitter', serif;
     text-transform: uppercase;
 }
 
